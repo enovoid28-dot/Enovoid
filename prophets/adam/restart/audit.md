@@ -35,3 +35,9 @@
 Lolos: 017 fixed, 018–025.
 
 Ditolak: 012 fixed karena garis arah menyatu dengan tubuh Iblis dan memberi kesan anggota tubuh tambahan. Adegan akan dibuat ulang menggunakan jalur terpisah di tanah.
+
+## Batch 4
+
+Lolos: 012 fixed2, 026–028, 030, dan 032–034.
+
+Ditolak: 029 dan 031 karena mantel hijau Adam serta penutup kepala krem istrinya tidak konsisten dalam pose berdoa/sujud. Keduanya dihapus dan akan dibuat ulang.
