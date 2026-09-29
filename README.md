@@ -1,28 +1,28 @@
-# Enovoid — Animasi Stickman Indonesia
+# Enovoid — Kisah Para Nabi
 
-Produksi video YouTube long-form 16:9 berbasis rangkaian gambar stickman, narasi Indonesia, transisi, dan efek suara non-AI.
+Proyek produksi serial animasi stickman 16:9 berbahasa Indonesia tentang kisah para nabi dalam Islam.
 
-## Rilis pertama
+## Episode dalam produksi
 
-**Bukan Malas! Alasan Otakmu Suka Menunda (dan Cara Mengatasinya)**
+**Kisah Nabi Adam AS berdasarkan Al-Qur'an dan hadis sahih**
 
-Paket publikasi pada GitHub Release berisi:
+Status saat ini: produksi visual. Adegan dibuat dalam batch maksimal 10 gambar, lalu diaudit sebelum masuk ke daftar gambar yang disetujui.
 
-- MP4 final 1280×720, 24 fps, durasi 6:43;
-- thumbnail JPG 1280×720;
-- metadata YouTube lengkap.
+## Pedoman editorial
 
-## Kontrol kualitas
+- Sumber utama adalah Al-Qur'an dan hadis sahih.
+- Riwayat lemah, kisah Israiliyyat, lokasi yang tidak pasti, serta jenis pohon atau buah yang tidak disebutkan dalil tidak disampaikan sebagai fakta.
+- Allah SWT tidak divisualisasikan.
+- Nabi Adam dan istrinya menggunakan desain stickman konsisten dengan wajah berupa cahaya tanpa fitur.
+- Malaikat direpresentasikan secara abstrak sebagai kolom cahaya, bukan klaim mengenai bentuk sebenarnya.
+- Setiap gambar harus 16:9, kartun 2D, konsisten dengan character reference, dan lolos audit visual.
+- Gambar gagal atau ditolak tidak disimpan dalam daftar produksi final.
 
-`production/manifest.json` adalah allowlist adegan. Renderer tidak memindai folder secara otomatis, sehingga gambar gagal atau belum diaudit tidak dapat masuk ke video. `production/render.py` memvalidasi decoding, rasio, durasi minimum, dan keutuhan durasi narasi sebelum menyatakan render lolos.
+## Struktur
 
-Efek transisi dibuat secara prosedural (gelombang audio biasa), bukan generative AI. Voice-over dan gambar dibuat khusus untuk proyek ini.
+- `prophets/adam/reference/character_reference.png` — acuan karakter resmi.
+- `prophets/adam/restart/scenes/` — gambar yang telah lolos audit sementara.
+- `prophets/adam/restart/quality/` — contact sheet audit per batch.
+- `prophets/adam/restart/audit.md` — hasil audit dan dasar sumber.
 
-## Reproduksi
-
-```bash
-python3 -m pip install pillow imageio-ffmpeg
-python3 production/render.py
-```
-
-Output dibuat di folder `output/` dan sengaja tidak dilacak Git karena video final didistribusikan lewat GitHub Release.
+Produksi video, voice-over, thumbnail, metadata, dan GitHub Release akan dilanjutkan setelah seluruh visual selesai.
