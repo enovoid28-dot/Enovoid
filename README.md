@@ -1,6 +1,6 @@
-# 🎥 Enovoid - Automated YouTube Video Production Engine (Stickman Historical Animation)
+# 🎬 Stickman Berdasi - Automated YouTube Historical Animation Production Engine
 
-Sistem produksi otomatis video cerita animasi stickman beresolusi Full HD (1080p), dilengkapi voice-over Bahasa Indonesia yang tegas dan santai, transisi dinamis, efek kamera sinematik (*Ken Burns Effect*), serta sound effects (SFX) perang mendalam tanpa musik.
+Repositori produksi otomatis video animasi cerita sejarah dan taktik militer bergaya 2D Stickman (*Stickman Berdasi*), berdurasi $\ge 5$ menit (Full HD 1080p), dilengkapi narasi Voice-Over komandan perang Bahasa Indonesia, sound effects (SFX) pertempuran laut, transisi *smooth crossfade*, serta karakter presenter *Stickman Berdasi* berkacamata hitam dan berdasi merah.
 
 ---
 
@@ -8,54 +8,70 @@ Sistem produksi otomatis video cerita animasi stickman beresolusi Full HD (1080p
 
 ```text
 Enovoid/
-├── assets/                          # Ilustrasi scene animasi stickman 2D (16:9) & thumbnail
-│   ├── scene1_pill_choice.png       # Scene 1: Dilema pil merah vs pil biru
-│   ├── scene2_colonial_forces.png   # Scene 2: Pasukan kolonial Sekutu & NICA berbaris
-│   ├── scene3_military_hq_planning.png # Scene 3: Rapat taktik markas militer pejuang
-│   ├── scene4_city_on_fire.png      # Scene 4: Lautan api kota Bandung & evakuasi
-│   ├── scene5_ammo_depot_hero.png   # Scene 5: Peledakan gudang amunisi Dayeuhkolot
-│   ├── scene6_ashes_victory.png     # Scene 6: Puing abu kemenangan moral & fajar
-│   └── youtube_thumbnail.png        # Thumbnail YouTube resolusi tinggi (High-CTR)
-├── audio/                           # Rekaman Voice-Over narasi Bahasa Indonesia (Pria Tegas)
-│   ├── narration_01.mp3
-│   ├── narration_02.mp3
-│   ├── narration_03.mp3
-│   ├── narration_04.mp3
-│   └── narration_05.mp3
-├── sfx/                             # Sound effects pertempuran & transisi
-│   ├── whoosh.wav                   # Efek transisi antar adegan
-│   ├── dramatic_impact.wav          # Efek penekanan/dentuman dramatis
-│   ├── tension_rumble.wav           # Gemuruh tensi atmosfer bunker/kota
-│   ├── fire_roaring.wav             # Suara kobaran api & reruntuhan terbakar
-│   └── explosion.wav                # Efek ledakan dahsyat gudang mesiu
-├── scripts/                         # Script rendering otomatis
-│   └── render_video.py              # Engine komposit video, audio SFX & transisi
-├── release_assets/                  # File hasil render final siap rilis / download
-│   ├── Bandung_Lautan_Api_Stickman_Animation.mp4 # Video YouTube Full HD 1080p
-│   └── youtube_thumbnail.png        # Thumbnail resmi video
-├── YOUTUBE_METADATA.md              # Riset niche, judul, deskripsi, hashtag, & tag SEO
+├── assets/                                     # Gambar adegan stik figur 2D (16:9), sprite presenter & thumbnail
+│   ├── trikora_scene01_intro_studio.png        # Scene 1: Studio briefing Stickman Berdasi
+│   ├── trikora_scene02_bung_karno_trikora.png  # Scene 2: Pidato Trikora Bung Karno di Yogyakarta
+│   ├── trikora_scene03_naval_hq_planning.png   # Scene 3: Perencanaan operasi 4 kapal cepat torpedo
+│   ├── trikora_scene04_night_convoy_flare.png  # Scene 4: Konvoi malam disinari suar pesawat Neptune
+│   ├── trikora_scene05_dutch_destroyers.png    # Scene 5: Pengepungan kapal perusak Evertsen & Kortenaer
+│   ├── trikora_scene06_macan_tutul_maneuver.png# Scene 6: Manuver tajam KRI Macan Tutul memancing tembakan
+│   ├── trikora_scene07_yos_sudarso_sacrifice.png# Scene 7: Pengorbanan Yos Sudarso & kobaran api kapal
+│   ├── trikora_scene08_submarine_tu16_buildup.png# Scene 8: Armada 12 kapal selam Whiskey & bomber Tu-16
+│   ├── trikora_scene09_papua_victory_un.png    # Scene 9: Kemenangan diplomasi & bendera Merah Putih di Papua
+│   ├── trikora_scene10_outro_stickman_berdasi.png# Scene 10: Outro studio & tombol subscribe
+│   ├── host_explain.png                        # Sprite presenter: Pose menjelaskan
+│   ├── host_point.png                          # Sprite presenter: Pose menunjuk
+│   ├── host_salute.png                         # Sprite presenter: Pose hormat militer
+│   ├── host_thumbsup.png                       # Sprite presenter: Pose jempol / outro
+│   └── trikora_youtube_thumbnail.png           # Thumbnail YouTube 1080p (High-CTR)
+├── audio/                                      # Master Voice-Over narasi komandan perang Bahasa Indonesia
+│   ├── trikora_vo_01.mp3                       # VO Scene 1
+│   ├── trikora_vo_02.mp3                       # VO Scene 2
+│   ├── trikora_vo_03.mp3                       # VO Scene 3
+│   ├── trikora_vo_04.mp3                       # VO Scene 4
+│   ├── trikora_vo_05.mp3                       # VO Scene 5
+│   ├── trikora_vo_06.mp3                       # VO Scene 6
+│   ├── trikora_vo_07.mp3                       # VO Scene 7
+│   ├── trikora_vo_08.mp3                       # VO Scene 8
+│   ├── trikora_vo_09.mp3                       # VO Scene 9
+│   └── trikora_vo_10.mp3                       # VO Scene 10
+├── sfx/                                        # Sound effects pertempuran laut
+│   ├── whoosh.wav                              # Efek transisi antar adegan
+│   ├── dramatic_impact.wav                     # Dentuman sub-bass dramatis
+│   ├── naval_cannon.wav                        # Tembakan meriam kapal perusak
+│   ├── flare_launch.wav                        # Peluncuran suar & desis cahaya
+│   ├── explosion.wav                           # Ledakan kapal & gelombang kejut
+│   ├── sonar_ping.wav                          # Sonar kapal selam
+│   └── tension_rumble.wav                      # Suara ombak laut malam & tensi
+├── scripts/
+│   └── render_trikora_video.py                 # Engine rendering video, audio SFX, overlay & transisi
+├── release_assets/
+│   ├── Operasi_Trikora_Laut_Aru_Stickman_Berdasi.mp4 # File Video Final 1080p (5:06 menit)
+│   └── youtube_thumbnail.png                   # Thumbnail resmi YouTube
+├── YOUTUBE_METADATA.md                         # Riset keyword, judul A/B, deskripsi SEO, hashtags & tags
 └── README.md
 ```
 
 ---
 
-## 🚀 Fitur Video & Spesifikasi Teknis
+## 🚀 Spesifikasi Teknis Video
 
-- **Durasi Video**: ~1:45 menit (Kategori Long/Mid Form Storytelling)
+- **Judul Proyek**: Operasi Trikora & Pertempuran Laut Aru 1962
+- **Channel**: Stickman Berdasi
+- **Durasi Video**: **5 Menit 6 Detik (306.37 detik)** $\ge 5$ Menit
 - **Resolusi**: 1920x1080 (16:9 Full HD)
 - **Frame Rate**: 30 FPS Progressive
 - **Audio Codec**: AAC Stereo 320 kbps Master Track
-- **Voice-Over**: Narasi maskulin, santai namun tegas dalam Bahasa Indonesia.
-- **Sound Design**: Full SFX (*Whoosh, Low Drone, Fire Roar, Explosion, Impact Boom*), 100% tanpa musik latar belakang (bebas klaim hak cipta).
-- **Visual**: Animasi pergerakan gambar dinamis (*Smooth Zoom In, Pan Right, Dynamic Shake, Zoom Out*) dengan transisi *crossfade* 0.8 detik tanpa teks/subtitel yang mengganggu visual.
+- **Voice-Over**: Suara komandan perang Bahasa Indonesia, tegas dan lugas.
+- **Presenter Karakter**: Karakter stickman berkacamata hitam dan berdasi (*Stickman Berdasi*) di sudut bawah layar secara dinamis tanpa menghalangi aksi cerita.
+- **Sound Design**: Full SFX (*Naval cannons, sonar, flares, explosions, sub impacts, whooshes*), 100% tanpa musik latar.
+- **Visual**: Gerakan kamera dinamis (*Ken Burns: smooth pan, zoom in, zoom out, dynamic shake*) dan transisi *smooth crossfade* 0.8 detik. Bebas subtitel di layar.
 
 ---
 
 ## 🛠️ Cara Menjalankan Render Ulang
 
 ```bash
-# Jalankan engine render
-python3 scripts/render_video.py
+# Render video lengkap
+python3 scripts/render_trikora_video.py
 ```
-
-Output video otomatis tersimpan di direktori `release_assets/`.
