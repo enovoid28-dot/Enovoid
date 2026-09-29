@@ -1,0 +1,60 @@
+name: Render Kisah Nabi Adam
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout production branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || github.ref_name }}
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Validate final assets
+        run: |
+          test "$(find production/adam/images/final -maxdepth 1 -name 'scene_*.jpg' | wc -l)" -eq 45
+          test -s production/adam/audio/voiceover_full.mp3
+          test -s production/adam/subtitles_id.srt
+
+      - name: Render final MP4
+        run: |
+          bash production/adam/render_video.sh
+          test -s production/adam/final/kisah_nabi_adam_16x9.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 production/adam/final/kisah_nabi_adam_16x9.mp4
+
+      - name: Write render checksum
+        run: |
+          sha256sum production/adam/final/kisah_nabi_adam_16x9.mp4 > production/adam/final/SHA256SUMS.txt
+
+      - name: Commit rendered video to the session branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add production/adam/final/kisah_nabi_adam_16x9.mp4 production/adam/final/SHA256SUMS.txt
+          git commit -m "Render final Kisah Nabi Adam video" || echo "No render changes to commit"
+          TARGET_BRANCH="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
+          git push origin "HEAD:${TARGET_BRANCH}"
+
+      - name: Upload final video artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kisah-nabi-adam-final
+          path: |
+            production/adam/final/kisah_nabi_adam_16x9.mp4
+            production/adam/final/SHA256SUMS.txt
+          retention-days: 30

@@ -1,0 +1,320 @@
+{
+  "duration": 406.728,
+  "scenes": [
+    {
+      "scene": "01",
+      "start": "0.000",
+      "end": "8.994",
+      "duration": "8.994",
+      "image": "images/final/scene_01.jpg"
+    },
+    {
+      "scene": "02",
+      "start": "8.994",
+      "end": "17.988",
+      "duration": "8.994",
+      "image": "images/final/scene_02.jpg"
+    },
+    {
+      "scene": "03",
+      "start": "17.988",
+      "end": "27.981",
+      "duration": "9.993",
+      "image": "images/final/scene_03.jpg"
+    },
+    {
+      "scene": "04",
+      "start": "27.981",
+      "end": "35.976",
+      "duration": "7.995",
+      "image": "images/final/scene_04.jpg"
+    },
+    {
+      "scene": "05",
+      "start": "35.976",
+      "end": "44.970",
+      "duration": "8.994",
+      "image": "images/final/scene_05.jpg"
+    },
+    {
+      "scene": "06",
+      "start": "44.970",
+      "end": "54.963",
+      "duration": "9.993",
+      "image": "images/final/scene_06.jpg"
+    },
+    {
+      "scene": "07",
+      "start": "54.963",
+      "end": "63.957",
+      "duration": "8.994",
+      "image": "images/final/scene_07.jpg"
+    },
+    {
+      "scene": "08",
+      "start": "63.957",
+      "end": "72.951",
+      "duration": "8.994",
+      "image": "images/final/scene_08.jpg"
+    },
+    {
+      "scene": "09",
+      "start": "72.951",
+      "end": "81.945",
+      "duration": "8.994",
+      "image": "images/final/scene_09.jpg"
+    },
+    {
+      "scene": "10",
+      "start": "81.945",
+      "end": "90.939",
+      "duration": "8.994",
+      "image": "images/final/scene_10.jpg"
+    },
+    {
+      "scene": "11",
+      "start": "90.939",
+      "end": "98.934",
+      "duration": "7.995",
+      "image": "images/final/scene_11.jpg"
+    },
+    {
+      "scene": "12",
+      "start": "98.934",
+      "end": "107.928",
+      "duration": "8.994",
+      "image": "images/final/scene_12.jpg"
+    },
+    {
+      "scene": "13",
+      "start": "107.928",
+      "end": "116.922",
+      "duration": "8.994",
+      "image": "images/final/scene_13.jpg"
+    },
+    {
+      "scene": "14",
+      "start": "116.922",
+      "end": "125.916",
+      "duration": "8.994",
+      "image": "images/final/scene_14.jpg"
+    },
+    {
+      "scene": "15",
+      "start": "125.916",
+      "end": "134.910",
+      "duration": "8.994",
+      "image": "images/final/scene_15.jpg"
+    },
+    {
+      "scene": "16",
+      "start": "134.910",
+      "end": "143.904",
+      "duration": "8.994",
+      "image": "images/final/scene_16.jpg"
+    },
+    {
+      "scene": "17",
+      "start": "143.904",
+      "end": "152.898",
+      "duration": "8.994",
+      "image": "images/final/scene_17.jpg"
+    },
+    {
+      "scene": "18",
+      "start": "152.898",
+      "end": "160.892",
+      "duration": "7.995",
+      "image": "images/final/scene_18.jpg"
+    },
+    {
+      "scene": "19",
+      "start": "160.892",
+      "end": "169.886",
+      "duration": "8.994",
+      "image": "images/final/scene_19.jpg"
+    },
+    {
+      "scene": "20",
+      "start": "169.886",
+      "end": "178.880",
+      "duration": "8.994",
+      "image": "images/final/scene_20.jpg"
+    },
+    {
+      "scene": "21",
+      "start": "178.880",
+      "end": "187.874",
+      "duration": "8.994",
+      "image": "images/final/scene_21.jpg"
+    },
+    {
+      "scene": "22",
+      "start": "187.874",
+      "end": "196.868",
+      "duration": "8.994",
+      "image": "images/final/scene_22.jpg"
+    },
+    {
+      "scene": "23",
+      "start": "196.868",
+      "end": "205.862",
+      "duration": "8.994",
+      "image": "images/final/scene_23.jpg"
+    },
+    {
+      "scene": "24",
+      "start": "205.862",
+      "end": "213.857",
+      "duration": "7.995",
+      "image": "images/final/scene_24.jpg"
+    },
+    {
+      "scene": "25",
+      "start": "213.857",
+      "end": "222.851",
+      "duration": "8.994",
+      "image": "images/final/scene_25.jpg"
+    },
+    {
+      "scene": "26",
+      "start": "222.851",
+      "end": "231.845",
+      "duration": "8.994",
+      "image": "images/final/scene_26.jpg"
+    },
+    {
+      "scene": "27",
+      "start": "231.845",
+      "end": "240.839",
+      "duration": "8.994",
+      "image": "images/final/scene_27.jpg"
+    },
+    {
+      "scene": "28",
+      "start": "240.839",
+      "end": "249.833",
+      "duration": "8.994",
+      "image": "images/final/scene_28.jpg"
+    },
+    {
+      "scene": "29",
+      "start": "249.833",
+      "end": "258.827",
+      "duration": "8.994",
+      "image": "images/final/scene_29.jpg"
+    },
+    {
+      "scene": "30",
+      "start": "258.827",
+      "end": "266.822",
+      "duration": "7.995",
+      "image": "images/final/scene_30.jpg"
+    },
+    {
+      "scene": "31",
+      "start": "266.822",
+      "end": "275.816",
+      "duration": "8.994",
+      "image": "images/final/scene_31.jpg"
+    },
+    {
+      "scene": "32",
+      "start": "275.816",
+      "end": "284.810",
+      "duration": "8.994",
+      "image": "images/final/scene_32.jpg"
+    },
+    {
+      "scene": "33",
+      "start": "284.810",
+      "end": "293.804",
+      "duration": "8.994",
+      "image": "images/final/scene_33.jpg"
+    },
+    {
+      "scene": "34",
+      "start": "293.804",
+      "end": "302.798",
+      "duration": "8.994",
+      "image": "images/final/scene_34.jpg"
+    },
+    {
+      "scene": "35",
+      "start": "302.798",
+      "end": "311.791",
+      "duration": "8.994",
+      "image": "images/final/scene_35.jpg"
+    },
+    {
+      "scene": "36",
+      "start": "311.791",
+      "end": "320.785",
+      "duration": "8.994",
+      "image": "images/final/scene_36.jpg"
+    },
+    {
+      "scene": "37",
+      "start": "320.785",
+      "end": "328.780",
+      "duration": "7.995",
+      "image": "images/final/scene_37.jpg"
+    },
+    {
+      "scene": "38",
+      "start": "328.780",
+      "end": "337.774",
+      "duration": "8.994",
+      "image": "images/final/scene_38.jpg"
+    },
+    {
+      "scene": "39",
+      "start": "337.774",
+      "end": "346.768",
+      "duration": "8.994",
+      "image": "images/final/scene_39.jpg"
+    },
+    {
+      "scene": "40",
+      "start": "346.768",
+      "end": "355.762",
+      "duration": "8.994",
+      "image": "images/final/scene_40.jpg"
+    },
+    {
+      "scene": "41",
+      "start": "355.762",
+      "end": "364.756",
+      "duration": "8.994",
+      "image": "images/final/scene_41.jpg"
+    },
+    {
+      "scene": "42",
+      "start": "364.756",
+      "end": "373.750",
+      "duration": "8.994",
+      "image": "images/final/scene_42.jpg"
+    },
+    {
+      "scene": "43",
+      "start": "373.750",
+      "end": "381.745",
+      "duration": "7.995",
+      "image": "images/final/scene_43.jpg"
+    },
+    {
+      "scene": "44",
+      "start": "381.745",
+      "end": "390.739",
+      "duration": "8.994",
+      "image": "images/final/scene_44.jpg"
+    },
+    {
+      "scene": "45",
+      "start": "390.739",
+      "end": "406.728",
+      "duration": "15.989",
+      "image": "images/final/scene_45.jpg"
+    }
+  ]
+}
