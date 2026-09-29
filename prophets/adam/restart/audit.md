@@ -29,3 +29,9 @@
 - 010 versi awal: malaikat dan desain Iblis tidak konsisten.
 - 012: memasukkan mahkota, emas, dan hiburan yang tidak diperlukan oleh narasi.
 - 017: warna kepala Adam berubah dan tidak sesuai character reference.
+
+## Batch 3
+
+Lolos: 017 fixed, 018–025.
+
+Ditolak: 012 fixed karena garis arah menyatu dengan tubuh Iblis dan memberi kesan anggota tubuh tambahan. Adegan akan dibuat ulang menggunakan jalur terpisah di tanah.
