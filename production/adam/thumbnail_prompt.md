@@ -2,7 +2,7 @@
 
 ## File gambar
 
-`thumbnail.jpg`
+`thumbnail_final.jpg`
 
 ## Prompt internal yang digunakan
 

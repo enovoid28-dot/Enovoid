@@ -10,7 +10,7 @@
 - Master voice-over: `audio/voiceover_full.mp3`
 - Measured voice-over duration: approximately 6:47
 - Subtitle: `subtitles_id.srt`
-- Visuals: `images/generated/scene_01.jpg` through `scene_45.jpg`
+- Visuals: `images/final/scene_01.jpg` through `scene_45.jpg`
 - Final image approval: `master_image_audit.md`
 
 ## Editing rules

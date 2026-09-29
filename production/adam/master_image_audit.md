@@ -17,7 +17,7 @@ Reference: `character_reference_model_sheet.png`
 
 ## Final render rule
 
-Gunakan hanya file `scene_01.jpg` sampai `scene_45.jpg` dari folder `images/generated/`. Semua file tersebut memiliki status **Lolos** pada versi terbaru.
+Gunakan hanya file `scene_01.jpg` sampai `scene_45.jpg` dari folder `images/final/`. Semua file tersebut sudah dinormalisasi menjadi 1920x1080 exact 16:9 dan memiliki status **Lolos** pada versi terbaru. Folder `images/generated/` adalah arsip hasil generator.
 
 ## Global audit checks passed
 

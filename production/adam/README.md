@@ -21,8 +21,9 @@
 - `subtitles_id.srt` — subtitle Bahasa Indonesia
 - `storyboard.md` — storyboard dan timecode final
 - `master_image_audit.md` — daftar audit visual final
-- `images/generated/scene_01.jpg` sampai `scene_45.jpg` — visual utama
-- `thumbnail.jpg` — thumbnail tanpa teks overlay
+- `images/final/scene_01.jpg` sampai `scene_45.jpg` — visual utama final 1920x1080
+- `images/generated/` — arsip hasil generator
+- `thumbnail_final.jpg` — thumbnail final tanpa teks overlay
 - `youtube_metadata.md` — judul, deskripsi, chapter, tag, dan sumber
 - `editing_plan.md` — transisi, SFX, dan aturan mixing
 - `render_checklist.md` — pemeriksaan sebelum export

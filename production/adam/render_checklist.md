@@ -4,7 +4,7 @@
 
 - [ ] Gunakan naskah `voiceover_script.txt` yang sudah disetujui.
 - [ ] Gunakan hanya `voiceover_full.mp3` atau lima bagian dalam urutan yang sama.
-- [ ] Gunakan hanya scene 01–45 dari versi terbaru.
+- [ ] Gunakan hanya scene 01–45 dari folder `images/final/` versi terbaru.
 - [ ] Periksa `master_image_audit.md` sebelum render.
 - [ ] Pastikan versi lama scene 40 tidak digunakan.
 - [ ] Tidak ada jenis buah yang ditambahkan.
