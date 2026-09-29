@@ -1,0 +1,11 @@
+file	width	height	decode	visual_review
+assets/scenes/01_hook.png	1376	768	PASS	PASS
+assets/scenes/02_lazy.png	1376	768	PASS	PASS
+assets/scenes/03_loop.png	1376	768	PASS	PASS
+assets/scenes/04_future.png	1376	768	PASS	PASS
+assets/scenes/05_deadline.png	1376	768	PASS	PASS
+assets/scenes/06_smallstep.png	1376	768	PASS	PASS
+assets/scenes/07_ifthen.png	1376	768	PASS	PASS
+assets/scenes/08_environment.png	1376	768	PASS	PASS
+assets/scenes/09_protocol_fixed.png	1376	768	PASS	PASS
+assets/scenes/10_outro.png	1376	768	PASS	PASS

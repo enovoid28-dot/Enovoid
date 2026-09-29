@@ -1,0 +1,41 @@
+{
+  "project": "Bukan Malas — Psikologi Prokrastinasi",
+  "format": "YouTube long-form 16:9",
+  "resolution": "1280x720",
+  "fps": 24,
+  "minimum_duration_seconds": 240,
+  "approved_scenes": [
+    "assets/scenes/01_hook.png",
+    "assets/scenes/02_lazy.png",
+    "assets/scenes/03_loop.png",
+    "assets/scenes/04_future.png",
+    "assets/scenes/05_deadline.png",
+    "assets/scenes/06_smallstep.png",
+    "assets/scenes/07_ifthen.png",
+    "assets/scenes/08_environment.png",
+    "assets/scenes/09_protocol_fixed.png",
+    "assets/scenes/10_outro.png"
+  ],
+  "rejected_scenes": {
+    "assets/scenes/09_protocol.png": "Tulisan acak/gibberish pada lembar dan gelembung pikiran",
+    "assets/scenes/02_not_lazy.png": "Gaya karakter berbeda dari referensi utama",
+    "assets/scenes/05_five_minutes.png": "Latar putih dan gaya visual tidak konsisten",
+    "assets/scenes/06_if_then.png": "Gaya outline terlalu minimal dibanding rangkaian utama",
+    "assets/scenes/07_protocol.png": "Gaya visual tidak konsisten"
+  },
+  "voice_tracks": [
+    "assets/voice/01_intro.mp3",
+    "assets/voice/02_problem.mp3",
+    "assets/voice/03_method.mp3",
+    "assets/voice/04_environment.mp3",
+    "assets/voice/05_outro.mp3"
+  ],
+  "quality_rules": [
+    "Semua gambar wajib dapat didekode",
+    "Rasio sumber wajib 16:9 dalam toleransi",
+    "Hanya approved_scenes yang boleh dirender",
+    "Tidak boleh ada watermark atau tulisan AI acak",
+    "Video final wajib lebih dari 240 detik",
+    "Audio narator harus utuh dan tidak terpotong"
+  ]
+}
