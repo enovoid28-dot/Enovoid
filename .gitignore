@@ -1,0 +1,5 @@
+# Build artifacts and temp caches
+build/
+*.pyc
+__pycache__/
+.cache/
