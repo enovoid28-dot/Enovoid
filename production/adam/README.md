@@ -13,6 +13,7 @@
 - Thumbnail: selesai dalam `thumbnail.jpg`
 - Metadata YouTube: selesai
 - Checklist render: selesai
+- Render MP4: asset dan script siap; menunggu encoder FFmpeg di environment
 
 ## File utama
 
