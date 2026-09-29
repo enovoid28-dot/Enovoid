@@ -12,7 +12,7 @@ Status: **Asset package ready; MP4 render pending encoder availability**
 
 ## Pending
 
-The sandbox does not currently contain an MP4 encoder. The render script was tested and stopped cleanly with a clear `ffmpeg is required` message. No fake or silent MP4 was created.
+The sandbox does not currently contain an MP4 encoder. The render script was tested and stopped cleanly with a clear `ffmpeg is required` message. No fake or silent MP4 was created. A GitHub Actions workflow was added at `.github/workflows/render-adam-video.yml` so the render can run on an Ubuntu runner with FFmpeg, but the current GitHub integration returned 404/403 when trying to access or dispatch repository Actions. The workflow remains ready in the branch.
 
 To render the final video in an environment with FFmpeg installed:
 
